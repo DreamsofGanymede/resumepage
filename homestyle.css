@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e56be;
+    /*padding-top: 25px;*/
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+header:hover {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #ca68c2;
+    transition: .5s;
+}
+
+h1 {
+    letter-spacing: 9px;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+h3:hover {
+    color: #ca68c2;
+    transition: .5s;
+}
+
+h4 {
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+h5 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-bottom: 50px;
+    color: white;
+}
+
+footer {
+    background-image:
+        linear-gradient(to bottom, rgba(21, 21, 33, 0.3), rgba(50, 130, 130, 0.3)),
+        url("content/bg1.jpg");
+}
+
+a:link {
+    color: #1e56be;
+}
+
+a:visited,
+a:hover {
+    color: #ca68c2;
+}
+
+a:active {
+    color: #1e56be;
+}
+
+.cvlink {
+    font-size: 2.2rem;
+    margin-top: 50px;
+    margin-bottom: 5px;
+
+}
+
+.btn-collapse,
+.btn-collapse:hover,
+.btn-collapse:active,
+.btn-collapse:visited,
+.btn-collapse:focus {
+    border-radius: 0 !important;
+    border: none;
+    color: #ca68c2;
+    border-left: 5px solid #ca68c2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.btn-pink {
+    background-color: #ca68c2;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: white;
+    color: #1e56be;
+}
+
+.lead {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.spandivide {
+    color: #ca68c2;
+}
+
+.spandetail {
+    font-weight: 500;
+}
+
+.thumbnail {
+    margin-top: 25px;
+    opacity: 70%;
+    transition: .5s;
+}
+
+.thumbnail:hover {
+    opacity: 100%;
+    transition: .5s;
+}
+
+#info {
+    border: none;
+    border-left: 5px solid #ca68c2;
+}
+
+#headerimg {
+    background-image:
+        linear-gradient(to bottom, rgba(21, 21, 33, 0.3), rgba(50, 130, 130, 0.3)),
+        url("content/bg1.jpg");
+}
